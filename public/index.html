@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		 <meta charset="utf-8">
+        <title>Commcare-Enketo test portal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<header class="page-header">
+            <a href="https://enketo.org"><img src="/images/logo.png" alt="Enketo Logo" /></a>
+            <section class="controls">
+                <input id="commcare-account" class="commcare-info" type="text" placeholder="CommcareHQ Account eg. corpora"/>
+			     <input id="commcare-app-id" class="commcare-info" type="text" placeholder="CommcareHQ App ID eg. cc3315e9bdb5719c7b57d6ee5b19e797"/>
+                <button id="update-list" class="btn" >Update</button>
+            </section>
+        </header>
+        <section class="main">
+            <progress class="list-progress"></progress>
+            <template id="enketo-li">
+                <li><a href="" title=""></a></li>
+            </template>
+        </section>
+		<!-- bower:js -->
+		<script src="jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+	</body>
+</html>

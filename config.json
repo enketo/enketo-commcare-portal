@@ -1,0 +1,4 @@
+{
+	"port": 3000,
+	"enketoFormPreviewUrl": "http://enketo.localhost/webform/preview?form={xformUrl}"
+}

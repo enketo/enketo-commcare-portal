@@ -1,0 +1,31 @@
+{
+  "name": "enketo-commcare-portal",
+  "version": "0.0.0",
+  "homepage": "http://commcare.enketo.org",
+  "authors": [
+    "Martijn van de Rijdt <martijn@enketo.org>"
+  ],
+  "description": "A portal meant to test commcarehq.com forms in Enketo",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "enketo",
+    "commcare",
+    "commcarehq"
+  ],
+  "license": "Apache2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}

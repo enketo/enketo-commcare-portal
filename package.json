@@ -1,0 +1,30 @@
+{
+  "name": "enketo-commcare-portal",
+  "version": "0.0.0",
+  "description": "A portal meant to test commcarehq.com forms in Enketo",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MartijnR/enketo-commcare-portal.git"
+  },
+  "keywords": [
+    "enketo",
+    "commcare",
+    "commcarehq"
+  ],
+  "author": "Martijn van de Rijdt",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/MartijnR/enketo-commcare-portal/issues"
+  },
+  "homepage": "http://commcare.enketo.org",
+  "dependencies": {
+    "body-parser": "^1.5.0",
+    "connect": "^3.1.0",
+    "request": "^2.38.0",
+    "serve-static": "^1.4.0"
+  }
+}

@@ -9,15 +9,6 @@ body {
     border-bottom: 5px solid #e3e3e3;
 }
 
-@media (max-width: 810px) {
-    .page-header {
-        height: 155px;
-    }
-    .commcare-info, .btn {
-        margin-top: 10px;
-    }
-}
-
 .controls {
     float: right;
     display: inline-block;
@@ -31,7 +22,6 @@ body {
 }
 
 .commcare-info {
-    width: 300px;
     height: 20px;
     border: 1px solid #666;
     border-radius: 4px;
@@ -91,4 +81,16 @@ li a {
     text-align: center;
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 810px) {
+    .page-header {
+        height: 125px;
+    }
+    .commcare-info, .btn {
+        margin-top: 10px;
+    }
+    #commcare-app-id {
+        width: 187px;
+    }
 }

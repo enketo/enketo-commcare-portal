@@ -2,7 +2,7 @@
   "name": "enketo-commcare-portal",
   "version": "0.0.0",
   "description": "A portal meant to test commcarehq.com forms in Enketo",
-  "main": "app/index.html",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

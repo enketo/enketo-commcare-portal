@@ -3,7 +3,7 @@ enketo-commcare-portal
 
 ![Enketo Logo](public/images/logo.png "Enketo Logo")
 
-A portal to test commcarehq.com forms in Enketo. See live [here](http://commcare.enketo.org).
+A portal to test commcarehq.com forms in Enketo. See live [here](http://commcare.enk.to).
 
 
 ### Installation
